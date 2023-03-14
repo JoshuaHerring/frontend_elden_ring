@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.hero_img{
+    width: 100%;
+}
+
+.BossHolder{
+    background-color: grey;
+}
+
+.Name{
+    text-align: center;
+    color: yellow;
+}
+
+.Strengths{
+    color: darkred;
+}
+
+.Weakneses{
+    color: rebeccapurple;
+}
+
+.AttackType{
+    color: blue;
+}
+
+.Parryable{
+    color: red;
+}
+
+.StanceBreakable{
+    color: greenyellow;
+}
+
+.Critical{
+    color: magenta;
+}
