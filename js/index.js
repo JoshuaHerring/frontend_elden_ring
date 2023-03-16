@@ -66,11 +66,19 @@ async function renderBosses(){
             // if the key is anyting else (all that's left is key value pairs) print them out and give them a class name according to thier key
             else
             {
+                // redundant ul used for alignmnet insetaed of css :)
+                let traitHolder = document.createElement("ul");
+                let traitHeader = document.createElement("h3");
                 let bossTrait = document.createElement("li");
-                bossTrait.innerHTML =key + ": " + boss[key];
-                bossTrait.classList.add(key);
 
-                bossHolder.append(bossTrait);
+                traitHeader.innerHTML = key;
+                bossTrait.innerHTML =boss[key];
+
+                traitHolder.classList.add(key);
+
+                traitHolder.append(traitHeader);
+                traitHolder.append(bossTrait);
+                bossHolder.append(traitHolder);
             }
         }
         // add the boss we just created to the html file using the div element in the index.html file that we stored in a variable at the begining
