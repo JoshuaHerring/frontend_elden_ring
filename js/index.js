@@ -39,7 +39,7 @@ async function renderBosses(){
                 bossTrait.innerHTML = boss[key];
                 bossTrait.classList.add(key);
 
-                bossHolder.append(bossTrait);
+                holder.append(bossTrait);
             }
 
             // if the key has a list inside of it do the same thing as the name value but also iterate though the list inside and add all of the list items as individual list items

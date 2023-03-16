@@ -9,39 +9,68 @@ body{
     /* height: 100px */
 }
 
+h1{
+    font-size: 300%;
+    text-align: center;
+    color: rgb(225,173,103);
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+
+hr{
+    border:solid 1px black
+}
+
 .BossHolder{
     background-color: #616161;
     margin: 50px 50px  50px 50px ;
     border: black 2px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
 }
+
 
 .Name{
     text-align: center;
     color: rgb(225,173,103);
-    /* color: #fff; */
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+ul{
+    margin: 40px 0;
+}
+
+li
+{
+    list-style: none;
 }
 
 .Strengths{
     color: darkred;
+    font-size: 120%;
 }
 
 .Weakneses{
     color: rebeccapurple;
+    font-size: 120%;
 }
 
 .AttackType{
     color: blue;
+    font-size: 120%;
 }
 
 .Parryable{
     color: red;
+    font-size: 120%;
 }
 
 .StanceBreakable{
     color: greenyellow;
+    font-size: 120%;
 }
 
 .Critical{
     color: magenta;
+    font-size: 120%;
 }
